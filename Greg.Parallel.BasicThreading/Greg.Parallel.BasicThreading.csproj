@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{018ED68A-BCC0-4FA3-8553-FD29DFA787EB}</ProjectGuid>
+    <ProjectGuid>{8B9BE5E9-9E2B-463B-A044-64A7A26E86BA}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Greg.Parallel.ConsoleClient</RootNamespace>
-    <AssemblyName>Greg.Parallel.ConsoleClient</AssemblyName>
+    <RootNamespace>Greg.Parallel.BasicThreading</RootNamespace>
+    <AssemblyName>Greg.Parallel.BasicThreading</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

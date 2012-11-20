@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Greg.Parallel.ConsoleClient
+namespace Greg.Parallel.BasicThreading
 {
     class Program
     {

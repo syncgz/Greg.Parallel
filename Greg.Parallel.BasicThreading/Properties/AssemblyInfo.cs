@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Greg.Parallel.ConsoleClient")]
+[assembly: AssemblyTitle("Greg.Parallel.BasicThreading")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Bwin Interactive Entertainment AG")]
-[assembly: AssemblyProduct("Greg.Parallel.ConsoleClient")]
+[assembly: AssemblyProduct("Greg.Parallel.BasicThreading")]
 [assembly: AssemblyCopyright("Copyright © Bwin Interactive Entertainment AG 2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("2d4ccc92-5594-4785-9472-01d726723d1c")]
+[assembly: Guid("affb4935-b474-490d-b3a9-e4e767153d71")]
 
 // Version information for an assembly consists of the following four values:
 //
