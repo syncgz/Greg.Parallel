@@ -41,11 +41,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Tests\AsynchronousDelThreading.cs" />
+    <Compile Include="Tests\BaseTreading.cs" />
+    <Compile Include="IThreadTesting.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\OldThreadPoolThreading.cs" />
+    <Compile Include="Tests\TaskThreading.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Greg.Parallel.Common\Greg.Parallel.Common.csproj">
+      <Project>{e91e4ef9-035b-4206-a38c-d7f6bf90954b}</Project>
+      <Name>Greg.Parallel.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
