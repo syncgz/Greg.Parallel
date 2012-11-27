@@ -20,6 +20,9 @@ namespace Greg.Parallel.BasicThreading
             test.Execution();
             
             test.Finishing();
+
+            Console.WriteLine("!!!!!!!!!!Zakonczono wykonywanie probramu!!!!!!!!!!");
+            Console.ReadLine();
         }
     }
 }

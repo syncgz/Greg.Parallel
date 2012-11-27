@@ -9,7 +9,7 @@ using Greg.Parallel.Common;
 namespace Greg.Parallel.BasicThreading.Tests
 {
     //
-    // Korzystanie z thread poola nie wykorzystujac TPL
+    // Korzystanie z thread poola nie wykorzystujac TPL. Przydatne gdy tworzymy aplikacje na wersje wczesniejsza niz 4.0
     //
 
     public class OldThreadPoolThreading : IThreadTesting
@@ -21,8 +21,10 @@ namespace Greg.Parallel.BasicThreading.Tests
 
         public void Execution()
         {
+            // tworzenie watkow - uzycie delegatu WaitCallback
             ThreadPool.QueueUserWorkItem(CallBack, "X");
             ThreadPool.QueueUserWorkItem(CallBack, "Y");
+            
             Work.Job1("Z");
         }
 

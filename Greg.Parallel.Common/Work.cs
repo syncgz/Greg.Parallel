@@ -28,5 +28,11 @@ namespace Greg.Parallel.Common
             Thread.Sleep(5000);
             return "Job2";
         }
+
+        public static void JobWithError()
+        {
+            Thread.Sleep(5000);
+            throw null;
+        }
     }
 }
