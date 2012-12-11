@@ -13,7 +13,7 @@ namespace Greg.Parallel.BasicThreading
     {
         static void Main(string[] args)
         {
-            IThreadTesting test = new AsynchronousDelThreading();
+            IThreadTesting test = new AutoResetEventThreading();
 
             test.Initialization();
             
@@ -22,7 +22,9 @@ namespace Greg.Parallel.BasicThreading
             test.Finishing();
 
             Console.WriteLine("!!!!!!!!!!Zakonczono wykonywanie probramu!!!!!!!!!!");
+            
             Console.ReadLine();
+
         }
     }
 }
