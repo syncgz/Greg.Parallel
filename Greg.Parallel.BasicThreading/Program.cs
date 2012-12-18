@@ -13,7 +13,7 @@ namespace Greg.Parallel.BasicThreading
     {
         static void Main(string[] args)
         {
-            IThreadTesting test = new AutoResetEventThreading();
+            IThreadTesting test = new ManulResetEventThreading();
 
             test.Initialization();
             

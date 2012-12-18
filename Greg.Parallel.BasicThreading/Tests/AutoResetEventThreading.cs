@@ -50,6 +50,9 @@ namespace Greg.Parallel.BasicThreading.Tests
 
         public void Finishing()
         {
+            // zamyka waithandle - ustawienie blokady
+            are.Reset();
+
             // disposowanie handlera gdy juz nie jest potrzebny
             are.Close();
         }
